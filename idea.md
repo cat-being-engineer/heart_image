@@ -16,4 +16,4 @@
 
 因为每过200HZ后RAM会读取一次XADC的输出数据，因此基于马尔科夫链的卡尔曼滤波会每过200HZ进行一次互补滤波的计算。所以卡尔曼滤波模块的输入时钟为200HZ，和RAM的输入时钟保持一致。
 
-![kalanma](C:\Users\hua\Desktop\hh\kalanma.png)
+![kalanma](idea.assets/kalanma.png)
